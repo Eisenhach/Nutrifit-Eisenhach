@@ -1,0 +1,335 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* Index.html */
+.nav_fondo{
+    background-color: #f9e8f3;
+    border-bottom: solid 2px #c17c74;
+    border-top: solid 2px #c17c74;
+}
+
+#navbarNav{
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+
+}
+
+.icono-nav{
+    margin-right: 0.3rem;
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+}
+
+.titulo__main{
+    text-transform: uppercase;
+    font-family: 'Ribeye', cursive;
+}
+
+.img__main img{
+    width: 200px;
+    height: 250px;
+}
+
+.title__resultados{
+    font-family: 'Ribeye', cursive;
+}
+.images img{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    margin: 1rem;
+    
+}
+.resultados{
+    background-color: #ddc9b3;
+    margin-top: 1rem;
+    border-top: 2px solid #c17c74;
+    border-bottom: 2px solid #c17c74;
+}
+.images{
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-content: center;       
+}
+.title__resultados{
+    padding-top: 1rem;
+}
+
+.menus img{
+    border: 2px solid black;
+    margin: 1rem;
+}
+.subtitle__menus{
+    font-family: 'Ribeye', cursive;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.description__menu{
+    padding: 1rem;
+}
+
+.link__dowload--menu{
+    text-decoration: none;
+    color: black;
+}
+
+.h3__dowload-uppercase{
+    color: black;
+    text-transform: uppercase;
+}
+.h3__dowload{
+    color: black;
+}
+
+.link__dowload--menu{
+    color: #c17c74 ;
+}
+#section__dowload{
+    background-color: b;
+    border: 2px solid black;
+    width: 50%;
+    border-radius: 15px;
+}
+.footer{
+    background-color: #1a120b;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+    
+}
+.row__footer{
+    background-color: #3c2a21;
+}
+
+.iconos-footer{
+    color: #e5e5cb;
+    text-decoration: none;
+}
+
+.row__footer i{
+    font-size: 1.5rem;
+    margin: 0.5rem;
+}
+
+
+.title__footer{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    color: #e5e5cb;
+    font-family: 'Ribeye', cursive;
+    
+}
+
+
+.container__copyright h6{
+    color: #e5e5cb;
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 1rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+
+/* Turnos styles */
+#main__turnos{
+    min-height: 70vh;
+}
+#section__turnos{
+    min-height: 70vh;
+    
+}
+.titulo__turnos{
+    margin: 1rem 0;
+    font-family: 'Ribeye', cursive;
+}
+.mes__turnos{
+    margin-top: 2rem;
+}
+#container__tabla{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.calendario{
+    background-color: #f9e8f3;
+    border: #c17c74 2px solid;
+}
+.calendario th{
+    font-family: 'Ribeye', cursive;
+}
+.calendario tr, th{
+    padding: 10px;
+}
+.mes__turnos{
+    color: #c17c74;
+}
+
+/* inputs */
+
+
+
+.opciones{
+    display: flex;
+    flex-direction: column;
+    
+    width: 80%;
+    margin-top: 1rem;
+}
+.opciones select {
+    background-color: #ddc9b4;
+    width: 200px;
+    height: 35px;
+    border: 2px solid #c17c74;
+    border-radius: 35px;
+    text-align: center;
+   
+  }
+
+.pedir__turno{
+    margin-top: 0.5rem;
+}
+
+.pedir__turno [type="submit"] {
+    background-color: #624763;
+    width: 150px;
+    height: 35px;
+    border: 2px solid #818080;
+    border-radius: 35px;
+    text-align: center;
+    color: #f9e8f3;
+  }
+
+  /* CSS planes.html */
+  @media (min-width: 768px) and (max-width: 980px){
+    .row-columna-1{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .borde{
+        margin-right: 2rem;
+    }
+    .title__planes{
+        margin: 2rem 0;
+    }
+
+  }
+
+
+  .borde{
+    border: 1px solid #c17c74;
+    background-color: #ddc9b3;
+  }
+  .derecha{
+    background-color: #cebccb;
+  }
+
+  .title__planes{
+    font-family: 'Ribeye', cursive;
+
+  }
+/* CSS de Informacion.html */
+  @media (min-width: 1200px){
+    .imgbox{
+        display: grid !important;
+        grid-template-columns: auto auto;
+        
+    }
+  }
+    .img-certi{
+    width: 300px;
+    height: 210px;
+    border: 1px solid black;
+  }
+
+  .title__info{
+    font-family: 'Ribeye', cursive;
+  }
+
+
+  /* CSS login.html */
+  .main__login{
+    min-height: 70vh;
+  }
+  
+  .login input{
+    min-width: auto;
+    max-width: 50%;
+  }
+
+  .btn-enviar{
+    background-color: #c17c74 !important;
+  }
+
+
+
+
+
+
+
+/* Media queries */
+@media (max-width: 667px) {
+    .images{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 550px) {
+    .menu{
+        text-align: center;
+        display: flex;
+    }
+    .pedir__turno{
+        margin: 0;
+        
+    }
+
+    /* Aca voy a aplicar los cambios de turnos.html para desktop */
+    .calendario{
+        min-height: 300px;
+        min-width: 500px;
+    }
+
+    .opciones{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 743px) {
+    .calendario{
+        min-width: 700px;
+    }
+    .calendario th{
+        font-size: 1.2rem;
+    }
+    .row__footer{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .row__footer i{
+        font-size: 2rem;
+    }
+    .row__footer i:hover{
+        color: #c17c74;
+    }
+
+    .title__footer{
+        text-align: center;
+        align-items: center;
+        font-size: 1.5rem;
+        padding-top: 0.3rem;
+        
+    }
+
+    
+}
+
