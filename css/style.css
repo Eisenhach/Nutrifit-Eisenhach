@@ -238,7 +238,6 @@ body{
     .imgbox{
         display: grid !important;
         grid-template-columns: auto auto;
-        
     }
   }
     .img-certi{
