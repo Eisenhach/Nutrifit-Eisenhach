@@ -1,0 +1,19 @@
+@media (min-width: 768px) and (max-width: 980px) {
+  .row-columna-1 {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .borde {
+    margin-right: 2rem;
+    border: 1px solid $second-color;
+    background-color: #ddc9b3;
+  }
+  .title__planes {
+    margin: 2rem 0;
+    font-family: $titulos-font-family;
+  }
+}
+
+.derecha {
+  background-color: #cebccb;
+}
