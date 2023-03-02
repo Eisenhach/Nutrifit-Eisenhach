@@ -1,0 +1,15 @@
+@media (min-width: 1200px) {
+  .imgbox {
+    display: grid !important;
+    grid-template-columns: auto auto;
+  }
+}
+.img-certi {
+  width: 300px;
+  height: 210px;
+  border: 1px solid black;
+}
+
+.title__info {
+  font-family: $titulos-font-family;
+}
