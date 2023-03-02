@@ -1,0 +1,55 @@
+@media (max-width: 667px) {
+  .images {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 550px) {
+  .menu {
+    text-align: center;
+    display: flex;
+  }
+  .pedir__turno {
+    margin: 0;
+  }
+
+  /* Aca voy a aplicar los cambios de turnos.html para desktop */
+  .calendario {
+    min-height: 300px;
+    min-width: 500px;
+  }
+
+  .opciones {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 743px) {
+  .calendario {
+    min-width: 700px;
+    th {
+      font-size: 1.2rem;
+    }
+  }
+
+  .row__footer {
+    display: flex;
+    justify-content: space-around;
+    i {
+      font-size: 2rem;
+      &:hoover {
+        color: $second-color;
+      }
+    }
+  }
+
+  .title__footer {
+    text-align: center;
+    align-items: center;
+    font-size: 1.5rem;
+    padding-top: 0.3rem;
+  }
+}
