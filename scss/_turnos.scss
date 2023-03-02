@@ -10,6 +10,7 @@
 }
 .mes__turnos {
   margin-top: 2rem;
+  color: $second-color;
 }
 #container__tabla {
   display: flex;
@@ -27,26 +28,20 @@
     padding: 10px;
   }
 }
-.mes__turnos {
-  color: $second-color;
-}
-
-/* inputs */
-
 .opciones {
   display: flex;
   flex-direction: column;
 
   width: 80%;
   margin-top: 1rem;
-}
-.opciones select {
-  background-color: #ddc9b4;
-  width: 200px;
-  height: 35px;
-  border: 2px solid $second-color;
-  border-radius: 35px;
-  text-align: center;
+  select {
+    background-color: #ddc9b4;
+    width: 200px;
+    height: 35px;
+    border: 2px solid $second-color;
+    border-radius: 35px;
+    text-align: center;
+  }
 }
 
 .pedir__turno {

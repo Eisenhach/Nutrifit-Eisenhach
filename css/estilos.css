@@ -145,6 +145,7 @@ body {
 
 .mes__turnos {
   margin-top: 2rem;
+  color: "#c17c74";
 }
 
 #container__tabla {
@@ -165,18 +166,12 @@ body {
   padding: 10px;
 }
 
-.mes__turnos {
-  color: "#c17c74";
-}
-
-/* inputs */
 .opciones {
   display: flex;
   flex-direction: column;
   width: 80%;
   margin-top: 1rem;
 }
-
 .opciones select {
   background-color: #ddc9b4;
   width: 200px;
