@@ -1,0 +1,67 @@
+#main__turnos{
+    min-height: 70vh;
+}
+#section__turnos{
+    min-height: 70vh;
+    
+}
+.titulo__turnos{
+    margin: 1rem 0;
+    font-family: 'Ribeye', cursive;
+}
+.mes__turnos{
+    margin-top: 2rem;
+}
+#container__tabla{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.calendario{
+    background-color: #f9e8f3;
+    border: #c17c74 2px solid;
+}
+.calendario th{
+    font-family: 'Ribeye', cursive;
+}
+.calendario tr, th{
+    padding: 10px;
+}
+.mes__turnos{
+    color: #c17c74;
+}
+
+/* inputs */
+
+
+
+.opciones{
+    display: flex;
+    flex-direction: column;
+    
+    width: 80%;
+    margin-top: 1rem;
+}
+.opciones select {
+    background-color: #ddc9b4;
+    width: 200px;
+    height: 35px;
+    border: 2px solid #c17c74;
+    border-radius: 35px;
+    text-align: center;
+   
+  }
+
+.pedir__turno{
+    margin-top: 0.5rem;
+}
+
+.pedir__turno [type="submit"] {
+    background-color: #624763;
+    width: 150px;
+    height: 35px;
+    border: 2px solid #818080;
+    border-radius: 35px;
+    text-align: center;
+    color: #f9e8f3;
+  }
