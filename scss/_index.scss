@@ -1,0 +1,72 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.titulo__main {
+  text-transform: uppercase;
+  font-family: "Ribeye", cursive;
+}
+
+.img__main img{
+    width: 200px;
+    height: 250px;
+}
+
+.title__resultados{
+    font-family: 'Ribeye', cursive;
+    padding-top: 1rem;
+}
+
+.images{
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-content: center;       
+}
+
+.images img{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    margin: 1rem;
+    
+}
+
+.resultados{
+    background-color: #ddc9b3;
+    margin-top: 1rem;
+    border-top: 2px solid #c17c74;
+    border-bottom: 2px solid #c17c74;
+}
+.menus img{
+    border: 2px solid black;
+    margin: 1rem;
+}
+.subtitle__menus{
+    font-family: 'Ribeye', cursive;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.description__menu{
+    padding: 1rem;
+}
+
+.link__dowload--menu{
+    text-decoration: none;
+    color: #c17c74 ;
+}
+
+.h3__dowload-uppercase{
+    color: black;
+    text-transform: uppercase;
+}
+.h3__dowload{
+    color: black;
+}
+
+#section__dowload{
+    background-color: b;
+    border: 2px solid black;
+    width: 50%;
+    border-radius: 15px;
+}
