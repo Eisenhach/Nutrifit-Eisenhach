@@ -6,7 +6,7 @@
 }
 .titulo__turnos {
   margin: 1rem 0;
-  font-family: "Ribeye", cursive;
+  font-family: $titulos-font-family;
 }
 .mes__turnos {
   margin-top: 2rem;
@@ -44,7 +44,7 @@
   background-color: #ddc9b4;
   width: 200px;
   height: 35px;
-  border: 2px solid #c17c74;
+  border: 2px solid $second-color;
   border-radius: 35px;
   text-align: center;
 }
