@@ -230,6 +230,19 @@ body {
   font-family: "Ribeye', cursive;";
 }
 
+.main__login {
+  min-height: 70vh;
+}
+
+.login input {
+  min-width: auto;
+  max-width: 50%;
+}
+
+.btn-enviar {
+  background-color: #c17c74 !important;
+}
+
 @media (max-width: 667px) {
   .images {
     display: flex;
