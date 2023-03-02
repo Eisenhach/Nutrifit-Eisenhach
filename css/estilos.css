@@ -195,4 +195,23 @@ body {
   color: #f9e8f3;
 }
 
+@media (min-width: 768px) and (max-width: 980px) {
+  .row-columna-1 {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .borde {
+    margin-right: 2rem;
+    border: 1px solid "#c17c74";
+    background-color: #ddc9b3;
+  }
+  .title__planes {
+    margin: 2rem 0;
+    font-family: "Ribeye', cursive;";
+  }
+}
+.derecha {
+  background-color: #cebccb;
+}
+
 /*# sourceMappingURL=estilos.css.map */
