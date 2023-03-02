@@ -155,7 +155,7 @@ body {
 
 .calendario {
   background-color: #f9e8f3;
-  border: #c17c74 2px solid;
+  border: "#c17c74" 2px solid;
 }
 .calendario th {
   font-family: "Ribeye', cursive;";
