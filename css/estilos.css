@@ -121,4 +121,13 @@ body {
   font-family: "Ribeye", cursive;
 }
 
+.container__copyrightgo h6 {
+  color: #e5e5cb;
+  text-align: center;
+  margin-bottom: 0;
+  padding-top: 1rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
 /*# sourceMappingURL=estilos.css.map */
